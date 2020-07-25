@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_bg_light"
+    tools:context=".ShowIdeaActivity">
+
+    <ScrollView
+
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/showimage"
+            android:scaleType="centerCrop"
+            android:src="@drawable/noimage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+            <RelativeLayout
+                android:paddingRight="10dp"
+               android:paddingLeft="10dp"
+                android:background="@color/purple_bg_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:drawableStart="@drawable/ic_person_pin_black_24dp"
+                    android:id="@+id/showusername"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:text="@string/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/showcreateat"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <TextView
+
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_bg_light"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="10dp"
+                android:text="Title"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/showtitleppppp"
+                android:background="@drawable/bag_left"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="10dp"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="@color/purple_bg_light"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="10dp"
+                android:text="Description"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/showdes"
+                android:background="@drawable/bag_left"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="10dp"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

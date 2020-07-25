@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "62981121831",
+    "firebase_url": "https://idea-hack-d77d9.firebaseio.com",
+    "project_id": "idea-hack-d77d9",
+    "storage_bucket": "idea-hack-d77d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62981121831:android:25e0616d19c97c58506b02",
+        "android_client_info": {
+          "package_name": "teamx.ideahacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62981121831-a9akghodphhr5r7dohpb2inierdtb0rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teamx.ideahacks",
+            "certificate_hash": "1d33ebd8d956fdcfae31dc5db8220f10a5dbd637"
+          }
+        },
+        {
+          "client_id": "62981121831-euc9ed23vc7rhkbba9jkr67f74tmu75m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBFXJxdJCGFjqjBs_thL4rJ3WF0Horyvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62981121831-euc9ed23vc7rhkbba9jkr67f74tmu75m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

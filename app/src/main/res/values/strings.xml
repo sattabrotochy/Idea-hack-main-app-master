@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Idea Hacks</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notify</string>
+    <string name="likes">Favs</string>
+    <string name="happy">Happy</string>
+    <string name="room">Room</string>
+    <string name="restaurant">Food</string>
+    <string name="shop">Shop</string>
+    <string name="photos">Pics</string>
+    <string name="call">Call</string>
+    <string name="todo">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload">Upload</string>
+    <string name="description">Description</string>
+    <string name="choose_a_photo">choose a photo</string>
+    <string name="type_a_message">Type a Comment..</string>
+    <string name="login_now">Login Now</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">sign up</string>
+    <string name="username">username</string>
+    <string name="already_have_an_account">Already Have an account??</string>
+    <string name="university_id">University Id</string>
+    <string name="create_a_account">Create a Account</string>
+    <string name="id">Id :</string>
+    <string name="total_votes">Total Votes :</string>
+    <string name="total_idea_submit">Total Idea Submit :</string>
+    <string name="your_bookmark_list">Your Bookmark List</string>
+    <string name="your_ideas">Your Ideas</string>
+
+
+    <string-array name="filter">
+        <item>All</item>
+        <item>new</item>
+        <item>in-progress</item>
+        <item>completed</item>
+        <item>on hold</item>
+        <item>upvote</item>
+        <item>downvote</item>
+
+    </string-array>
+
+</resources>
+
+
+

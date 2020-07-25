@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:id="@+id/rely1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/proicoID"
+                android:src="@drawable/proico"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <LinearLayout
+                android:padding="3dp"
+                android:orientation="vertical"
+                android:layout_toEndOf="@+id/proicoID"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/username_item"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="18sp"
+                  
+                    android:lines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/StatusID"
+                        android:textSize="14sp"
+                        android:text="Status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/StatusID"
+                        android:id="@+id/careate_atId"
+                        android:textSize="12sp"
+                  
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/bookmark_item"
+                android:layout_marginEnd="5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_bookmark_border_black_24dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_below="@+id/rely1"
+            android:id="@+id/item_icon"
+            android:scaleType="centerCrop"
+            android:src="@drawable/images"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+        <LinearLayout
+            android:layout_marginStart="10dp"
+            android:id="@+id/lin1"
+            android:orientation="vertical"
+            android:layout_below="@+id/item_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item_title"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="20sp"
+                 android:lines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/item_desId"
+                android:fontFamily="@font/roboto"
+                android:textSize="18sp"
+                android:lines="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/rely2"
+            android:layout_below="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_marginStart="10dp"
+               android:fontFamily="@font/roboto"
+               android:id="@+id/item_upvotecount"
+                android:textSize="14sp"
+               android:text="Upvote-"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:layout_marginStart="50dp"
+                android:layout_toEndOf="@+id/item_upvotecount"
+                android:id="@+id/item_downvotecount"
+                android:textSize="14sp"
+                android:text="DownVote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/roboto"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/item_comments"
+                android:drawableTint="@color/black"
+                android:textSize="14sp"
+                android:text="comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@+id/rely2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:background="@drawable/photos_background_stroke"
+                android:fontFamily="@font/roboto"
+                android:padding="5dp"
+                android:id="@+id/upvoteID"
+                android:drawableTint="@color/black"
+                android:drawableLeft="@drawable/ic_arrow_upward_black_24dp"
+                android:textSize="18sp"
+                android:text="Upvote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:background="@drawable/photos_background_stroke"
+                android:fontFamily="@font/roboto"
+                android:padding="5dp"
+                android:layout_marginLeft="14sp"
+                android:layout_toRightOf="@+id/upvoteID"
+                android:id="@+id/downvoteId"
+                android:drawableTint="@color/black"
+                android:drawableLeft="@drawable/ic_arrow_downward_black_24dp"
+                android:textSize="18sp"
+                android:text="DownVote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="5dp"
+                android:background="@drawable/photos_background_stroke"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/roboto"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/commentId"
+                android:drawableTint="@color/black"
+                android:textSize="16sp"
+                android:text="Comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
